@@ -1,6 +1,7 @@
 .highlight {
   background: yellow;
 }
-form {
-  padding: 1em;
+
+.toggle {
+  background-color: #ccc;
 }
