@@ -6,3 +6,14 @@ This example shows how to use JavaScript to target and change various different 
 - getElementsByClassName
 - getElementsByTagName
 - querySelectorAll
+
+There are three examples for triggering these changes:
+
+- addEventListener("click", ...
+- addEventListener("mouseover", ...
+- addEventListener("mouseout", ...
+
+The styles are changed using CSS classes:
+
+- element.classList.add("style")
+- element.classList.remove("style")
