@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript getElement(s)</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <h1>&lt;h1&gt;JavaScript getElement(s) examples&lt;/h1&gt;</h1>
+  <p>&lt;p&gt;Select the target you want to highlight:&lt;/p&gt;</p>
+
+  <form id="options-form">
+    <label>&lt;form id="options-form"&gt;</label>
+    <input type="submit" id="h2-button" value="h2">
+    <input type="submit" id="p-button" value="p">
+    <input type="submit" id="class-button" value='class="foo"'>
+    <input type="submit" id="id-button" value='id="special"'>
+    <input type="submit" id="form-button" value='form id="options-form"'>
+    <label>&lt;/form&gt;</label>
+  </form>
+
+  <h2 class="foo">&lt;h2 class="foo"&gt;Targeting classes&lt;/h2&gt;</h2>
+  <p class="foo">&lt;p class="foo"&gt;You can target different HTML tags based on the class they've got.&lt;/p&gt;</p>
+
+  <h2 class="bar">&lt;h2 class="bar"&gt;Targeting IDs&lt;/h2&gt;</h2>
+  <p id="special">&lt;p id="special"&gt;You can also target a specific ID (remember these are unique).&lt;/p&gt;</p>
+
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
